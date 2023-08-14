@@ -1,3 +1,5 @@
 #!/bin/bash
-gcc -E $CFILE -o c
+CFILE="$CFILE"
+gcc -E "$CFILE" -o c
+tail c
 
